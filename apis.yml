@@ -1,0 +1,79 @@
+name: Fieldpoint
+description: >
+  Fieldpoint is an enterprise field service management (FSM) platform built
+  for commercial contractors and service organizations across HVAC, electrical,
+  fire inspection, security, medical equipment, and technology verticals.
+  The platform covers the full service lifecycle including quoting, work order
+  management, scheduling and dispatching, mobile technician apps, inventory
+  tracking, service contracts, project costing, and customer management.
+  Fieldpoint exposes an open REST API known as the Fieldpoint Data Transfer
+  Service (FPDTS) that enables custom integrations with ERP, CRM, accounting,
+  payroll, and workforce management systems. The platform ships pre-built
+  connectors for Microsoft Dynamics GP/365, NetSuite, QuickBooks, Salesforce,
+  WorkMarket, AvaTax, and more, while the FPDTS API allows enterprises to
+  build bespoke integrations with any additional back-office system.
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/fieldpoint/refs/heads/main/apis.yml
+created: "2026-06-13"
+modified: "2026-06-13"
+specificationVersion: "0.19"
+type: Index
+tags:
+  - Field Service Management
+  - Work Orders
+  - Scheduling
+  - Dispatching
+  - Technician Management
+  - Asset Tracking
+  - Service Contracts
+  - Mobile Workforce
+  - Inventory Management
+  - Enterprise Software
+apis:
+  - name: Fieldpoint REST API (FPDTS)
+    description: >
+      The Fieldpoint Data Transfer Service (FPDTS) is Fieldpoint's open REST
+      API that enables data exchange between the Fieldpoint FSM platform and
+      external enterprise systems. The API supports creating and updating work
+      orders, managing technician records, scheduling jobs, syncing inventory
+      levels, and exporting billing and timesheet data. It is designed for
+      enterprise integrations with ERP, CRM, accounting, and workforce
+      management platforms.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://fieldpoint.net/integrations/
+    baseURL: https://api.fieldpoint.net
+    tags:
+      - Field Service
+      - Work Orders
+      - Scheduling
+      - Technicians
+      - Inventory
+    properties:
+      - type: Documentation
+        url: https://fieldpoint.net/integrations/
+      - type: IntegrationHandbook
+        url: https://fieldpoint.net/integration-handbook/
+common:
+  - type: Website
+    url: https://fieldpoint.net
+  - type: Documentation
+    url: https://fieldpoint.net/integrations/
+  - type: Blog
+    url: https://fieldpoint.net/blog/
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/fieldpoint-service-applications
+  - type: X
+    url: https://twitter.com/fieldpointtalks
+  - type: Support
+    url: https://fieldpointsupport.net/
+  - type: CaseStudies
+    url: https://fieldpoint.net/case-studies/
+  - type: Plans
+    url: plans/fieldpoint-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/fieldpoint-rate-limits.yml
+  - type: FinOps
+    url: finops/fieldpoint-finops.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

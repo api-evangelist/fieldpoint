@@ -1,0 +1,39 @@
+name: Fieldpoint API Rate Limits
+description: >
+  Fieldpoint does not publicly document specific rate limits for its FPDTS
+  (Fieldpoint Data Transfer Service) REST API. Rate limiting policies are
+  determined on a per-customer basis as part of enterprise integration
+  agreements. The FPDTS is designed for enterprise-scale data transfer,
+  supporting real-time synchronization and batch data exchange patterns.
+  Customers requiring specific throughput guarantees should engage Fieldpoint's
+  professional services team during implementation.
+specificationVersion: "0.1"
+rateLimits:
+  - scope: API (FPDTS)
+    description: >
+      Rate limits for the Fieldpoint Data Transfer Service API are not
+      publicly documented. Limits are negotiated as part of enterprise
+      licensing agreements and vary by customer deployment, data volume,
+      and integration complexity.
+    type: enterprise-negotiated
+    publiclyDocumented: false
+    notes:
+      - Contact Fieldpoint professional services for throughput SLAs
+      - FPDTS supports both real-time and batch data transfer patterns
+      - On-premise deployments may have different limits than cloud deployments
+  - scope: Integration Connectors
+    description: >
+      Pre-built connectors (NetSuite, QuickBooks, Dynamics GP, Salesforce,
+      WorkMarket, AvaTax) are managed by Fieldpoint and subject to the
+      upstream platform's own rate limits and API policies.
+    type: connector-passthrough
+    publiclyDocumented: false
+    notes:
+      - QuickBooks Online API limits apply when using the QBO connector
+      - Salesforce API limits apply when using the Salesforce connector
+      - NetSuite SuiteTalk governance limits apply for NetSuite integration
+guidance:
+  - Implement exponential back-off and retry logic for API consumers
+  - Use batch operations where available to reduce call volume
+  - Contact support@fieldpoint.net for integration-specific rate guidance
+  - Review Fieldpoint Academy resources at fieldpointsupport.net for best practices

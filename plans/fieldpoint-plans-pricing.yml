@@ -1,0 +1,71 @@
+name: Fieldpoint Plans and Pricing
+description: >
+  Fieldpoint offers subscription-based pricing for its field service management
+  platform. Pricing is per user per month and varies by plan tier and the number
+  of user licenses required. Enterprise pricing requires direct engagement with
+  the sales team. Implementation services, training, and onboarding fees may
+  apply separately.
+specificationVersion: "0.1"
+plans:
+  - name: Professional
+    description: >
+      Entry-level plan for field service organizations that need core work
+      order management, scheduling, dispatch, mobile technician app, and
+      QuickBooks integration. Suited for teams managing straightforward
+      break-fix and maintenance workflows.
+    url: https://fieldpoint.net/
+    price: 75.00
+    unit: user/month
+    currency: USD
+    billingCycle: monthly
+    features:
+      - Work order management
+      - Scheduling and dispatching
+      - Service contract management
+      - Customer portal
+      - Mobile technician app (iOS and Android)
+      - Time and expense tracking
+      - Basic reporting and dashboards
+      - QuickBooks integration
+    limitations:
+      - No API access
+      - No project management capabilities
+      - No advanced SLA management
+      - No custom reporting
+  - name: Enterprise
+    description: >
+      Full-featured plan for large commercial contractors and enterprises
+      requiring project costing, advanced SLAs, multi-level contract
+      entitlement, custom analytics, and API access via FPDTS. Includes
+      dedicated account management and support. Pricing is customized based
+      on user count and modules selected.
+    url: https://fieldpoint.net/
+    price: null
+    unit: user/month
+    currency: USD
+    billingCycle: monthly
+    contactSales: true
+    priceRange:
+      min: 125.00
+      note: >
+        Contact sales for exact pricing. Enterprise typically starts above the
+        Professional tier and scales with user count and module selections.
+    features:
+      - Everything in Professional
+      - Project management and project costing
+      - Advanced SLA management
+      - Multi-level contract and entitlement management
+      - Advanced analytics and custom reporting
+      - API access (FPDTS - Fieldpoint Data Transfer Service)
+      - ERP integrations (Microsoft Dynamics GP/365, NetSuite, Intacct)
+      - CRM integrations (Salesforce)
+      - Workforce management integrations (WorkMarket, ServiceChannel)
+      - AvaTax automated sales tax integration
+      - Dedicated account management
+      - Professional services onboarding
+notes:
+  - Fieldpoint does not publish pricing publicly; contact sales at fieldpoint.net
+  - Pricing estimates sourced from third-party reviews (Capterra, Softabase, TEC)
+  - Deployment options include cloud (SaaS) and on-premise
+  - Implementation and training fees apply in addition to license fees
+  - SOC 2 certified deployment

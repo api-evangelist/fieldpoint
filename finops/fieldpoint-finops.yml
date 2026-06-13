@@ -1,0 +1,101 @@
+name: Fieldpoint FinOps Framework
+description: >
+  FinOps (FOCUS-aligned) cost management profile for Fieldpoint field service
+  management platform subscriptions. This document provides guidance for
+  tracking, allocating, and optimizing spend on Fieldpoint licenses and
+  associated integration services within an enterprise technology portfolio.
+specificationVersion: "1.0"
+provider: Fieldpoint Service Applications, Inc.
+website: https://fieldpoint.net
+currency: USD
+
+costModel:
+  type: subscription
+  billingCadence: monthly
+  pricingModel: per-user-per-month
+  enterprisePricing: contact-sales
+  notes: >
+    Fieldpoint pricing is not publicly listed. Costs are established during
+    the sales process and vary by user count, plan tier, modules enabled,
+    and deployment type (cloud vs. on-premise).
+
+skus:
+  - id: FP-PROFESSIONAL
+    name: Fieldpoint Professional License
+    unit: user/month
+    listPrice: 75.00
+    currency: USD
+    description: Per-user monthly license for the Professional tier
+    category: Software License
+  - id: FP-ENTERPRISE
+    name: Fieldpoint Enterprise License
+    unit: user/month
+    listPrice: null
+    currency: USD
+    description: >
+      Per-user monthly license for Enterprise tier; includes API access and
+      advanced analytics. List price requires direct sales engagement.
+    category: Software License
+  - id: FP-IMPLEMENTATION
+    name: Fieldpoint Implementation Services
+    unit: engagement
+    listPrice: null
+    currency: USD
+    description: >
+      One-time professional services fee for implementation, data migration,
+      and configuration. Varies by scope and complexity.
+    category: Professional Services
+  - id: FP-TRAINING
+    name: Fieldpoint Training Services
+    unit: engagement
+    listPrice: null
+    currency: USD
+    description: >
+      Training fees for administrators and end users. Can be delivered
+      on-site or remotely via Fieldpoint Academy.
+    category: Professional Services
+
+costAllocation:
+  dimensions:
+    - name: Department
+      description: Allocate license costs by department (field ops, dispatch, billing, management)
+    - name: Region
+      description: Allocate costs by geographic service region or branch office
+    - name: Project
+      description: Track API and integration costs attributed to specific integration projects
+    - name: UserRole
+      description: >
+        Segment costs by user role: dispatcher, technician, project manager,
+        administrator. Technician mobile users may have different license tiers.
+
+optimization:
+  recommendations:
+    - Audit active user licenses quarterly and remove inactive users promptly
+    - Consolidate dispatcher and administrator roles to reduce seat count
+    - Negotiate volume discounts during annual renewal for enterprise customers
+    - Evaluate on-premise vs. cloud deployment TCO including infrastructure costs
+    - Leverage pre-built connectors (QuickBooks, NetSuite) before investing in
+      custom FPDTS API integrations to reduce development cost
+    - Use Fieldpoint Academy self-service training to reduce paid training costs
+  unitEconomics:
+    metric: cost-per-work-order
+    description: >
+      Track the total monthly Fieldpoint license cost divided by total work
+      orders closed per month to measure per-transaction software ROI.
+
+anomalyDetection:
+  signals:
+    - Sudden increase in contracted user seats without corresponding headcount growth
+    - Implementation services invoices exceeding budgeted scope
+    - Overage charges on API call volume (if applicable per contract)
+
+forecasting:
+  inputs:
+    - Planned technician headcount growth
+    - New branch or region expansion plans
+    - ERP or CRM migration projects requiring new integration development
+    - Scheduled contract renewal dates and escalation clauses
+  notes: >
+    Fieldpoint does not operate a public usage-based pricing model; forecast
+    costs are primarily driven by headcount and module additions rather than
+    API consumption.
