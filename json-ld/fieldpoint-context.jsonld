@@ -1,0 +1,102 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fieldpoint": "https://fieldpoint.net/vocab#",
+    "fpdts": "https://api.fieldpoint.net/vocab#",
+    "name": "name",
+    "description": "description",
+    "url": "url",
+    "provider": {
+      "@id": "provider",
+      "@type": "@id"
+    },
+    "SoftwareApplication": "SoftwareApplication",
+    "WebAPI": "WebAPI",
+    "Organization": "Organization",
+    "BlogPosting": "BlogPosting",
+    "WorkOrder": {
+      "@id": "fieldpoint:WorkOrder",
+      "@type": "@id"
+    },
+    "ServiceContract": {
+      "@id": "fieldpoint:ServiceContract",
+      "@type": "@id"
+    },
+    "DispatchJob": {
+      "@id": "fieldpoint:DispatchJob",
+      "@type": "@id"
+    },
+    "Technician": {
+      "@id": "fieldpoint:Technician",
+      "@type": "@id"
+    },
+    "Asset": {
+      "@id": "fieldpoint:Asset",
+      "@type": "@id"
+    },
+    "Inventory": {
+      "@id": "fieldpoint:Inventory",
+      "@type": "@id"
+    },
+    "Quote": {
+      "@id": "fieldpoint:Quote",
+      "@type": "@id"
+    },
+    "Customer": {
+      "@id": "fieldpoint:Customer",
+      "@type": "@id"
+    },
+    "Timesheet": {
+      "@id": "fieldpoint:Timesheet",
+      "@type": "@id"
+    },
+    "Invoice": {
+      "@id": "fieldpoint:Invoice",
+      "@type": "@id"
+    },
+    "FPDTS": {
+      "@id": "fpdts:DataTransferService",
+      "@type": "@id"
+    },
+    "apiEndpoint": {
+      "@id": "fpdts:apiEndpoint",
+      "@type": "@id"
+    },
+    "integrationHandbook": {
+      "@id": "fieldpoint:integrationHandbook",
+      "@type": "@id"
+    }
+  },
+  "@type": "WebAPI",
+  "@id": "https://api.fieldpoint.net",
+  "name": "Fieldpoint Data Transfer Service (FPDTS)",
+  "description": "Fieldpoint's open REST API for data exchange between the Fieldpoint FSM platform and external enterprise systems including ERP, CRM, accounting, and workforce management platforms.",
+  "provider": {
+    "@type": "Organization",
+    "@id": "https://fieldpoint.net",
+    "name": "Fieldpoint Service Applications",
+    "url": "https://fieldpoint.net",
+    "sameAs": [
+      "https://www.linkedin.com/company/fieldpoint-service-applications",
+      "https://twitter.com/fieldpointtalks"
+    ]
+  },
+  "documentation": "https://fieldpoint.net/integrations/",
+  "integrationHandbook": "https://fieldpoint.net/integration-handbook/",
+  "applicationCategory": "Field Service Management",
+  "keywords": [
+    "field service management",
+    "work orders",
+    "scheduling",
+    "dispatching",
+    "technician management",
+    "asset tracking",
+    "service contracts",
+    "mobile workforce",
+    "inventory management",
+    "HVAC",
+    "electrical",
+    "fire inspection",
+    "security"
+  ]
+}
