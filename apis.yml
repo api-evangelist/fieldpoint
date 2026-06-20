@@ -12,7 +12,7 @@ description: >
   connectors for Microsoft Dynamics GP/365, NetSuite, QuickBooks, Salesforce,
   WorkMarket, AvaTax, and more, while the FPDTS API allows enterprises to
   build bespoke integrations with any additional back-office system.
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: https://raw.githubusercontent.com/api-evangelist/fieldpoint/refs/heads/main/apis.yml
 created: "2026-06-13"
 modified: "2026-06-13"
@@ -39,7 +39,7 @@ apis:
       levels, and exporting billing and timesheet data. It is designed for
       enterprise integrations with ERP, CRM, accounting, and workforce
       management platforms.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://fieldpoint.net/integrations/
     baseURL: https://api.fieldpoint.net
     tags:
