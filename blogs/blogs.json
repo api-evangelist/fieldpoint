@@ -1,71 +1,13 @@
 {
-  "provider": "fieldpoint",
-  "blogURL": "https://fieldpoint.net/blog/",
-  "lastFetched": "2026-06-13",
-  "posts": [
-    {
-      "title": "Signs You've Outgrown Your Field Service Software",
-      "url": "https://fieldpoint.net/signs-youve-outgrown-your-field-service-software/",
-      "date": null
-    },
-    {
-      "title": "Is Your Field Service Operation Ready for Growth?",
-      "url": "https://fieldpoint.net/field-service-operations-growth-readiness/",
-      "date": null
-    },
-    {
-      "title": "3 Ways To Handle Thousands of Jobs with Cloud-Based Work Order Automation",
-      "url": "https://fieldpoint.net/3-ways-to-handle-jobs-with-cloud-based-work-order-automation/",
-      "date": null
-    },
-    {
-      "title": "5 Essential Preventive Maintenance KPI Examples You Need to Track",
-      "url": "https://fieldpoint.net/5-essential-preventive-maintenance-kpi-examples-you-need-to-track/",
-      "date": null
-    },
-    {
-      "title": "Closing the Field Service Cycle with Quick and Convenient Payments",
-      "url": "https://fieldpoint.net/securely-accept-online-payments/",
-      "date": null
-    },
-    {
-      "title": "Effective Construction Project Scheduling is Non-Negotiable for Enterprise Success",
-      "url": "https://fieldpoint.net/construction-project-scheduling-is-non-negotiable/",
-      "date": null
-    },
-    {
-      "title": "Route Optimization Guide: Boost Efficiency and Cut Costs",
-      "url": "https://fieldpoint.net/route-optimization-guide/",
-      "date": null
-    },
-    {
-      "title": "Top 11 Field Service Metrics Every Enterprise Leader Should Track to Boost Performance",
-      "url": "https://fieldpoint.net/top-field-service-metrics-to-track/",
-      "date": null
-    },
-    {
-      "title": "6 Top Tips for Picking a Fleet Management Software",
-      "url": "https://fieldpoint.net/6-top-tips-picking-a-fleet-management-software/",
-      "date": null
-    },
-    {
-      "title": "Managing Billable Hours in Field Service: 6 Best Practices",
-      "url": "https://fieldpoint.net/managing-billable-hours-in-field-service-6-practices/",
-      "date": null
-    },
-    {
-      "title": "Top 10 Challenges and Solutions in Field Service Management",
-      "url": "https://fieldpoint.net/top-10-challenges-and-solutions-in-field-service-management/",
-      "date": null
-    },
-    {
-      "title": "Emerging Trends in Field Service Management Software",
-      "url": "https://fieldpoint.net/emerging-trends-in-field-service-management-service/",
-      "date": null
-    }
-  ],
   "repo": "fieldpoint",
   "feeds": [
+    {
+      "source": "https://fieldpoint.net/feed/",
+      "feed_url": "https://fieldpoint.net/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
     {
       "source": "https://fieldpoint.net/integrations/",
       "feed_url": "https://fieldpoint.net/feed/",
@@ -74,6 +16,6 @@
       "method": "discovered"
     }
   ],
-  "post_count": 0,
-  "fetched": "2026-06-14T20:42:17Z"
+  "fetched": "2026-06-27T12:03:07Z",
+  "post_count": 0
 }
