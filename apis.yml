@@ -54,6 +54,8 @@ apis:
       - type: IntegrationHandbook
         url: https://fieldpoint.net/integration-handbook/
 common:
+  - type: DomainSecurity
+    url: security/fieldpoint-domain-security.yml
   - type: Website
     url: https://fieldpoint.net
   - type: Documentation
