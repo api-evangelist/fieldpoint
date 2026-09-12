@@ -2,25 +2,21 @@
   "repo": "fieldpoint",
   "feeds": [
     {
-      "source": "https://fieldpoint.net/feed/",
-      "feed_url": "https://fieldpoint.net/feed/",
-      "title": "",
-      "saved": 0,
-      "method": "feed",
-      "nature": "undetermined",
-      "nature_basis": null
-    },
-    {
       "source": "https://fieldpoint.net/integrations/",
       "feed_url": "https://fieldpoint.net/feed/",
       "title": "",
       "saved": 0,
-      "method": "discovered",
-      "nature": "undetermined",
-      "nature_basis": null
+      "method": "discovered"
+    },
+    {
+      "source": "https://fieldpoint.net/feed/",
+      "feed_url": "https://fieldpoint.net/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
     }
   ],
-  "fetched": "2026-08-30T22:33:40Z",
+  "fetched": "2026-09-06T19:17:18Z",
   "post_count": 10,
   "feed_nature": "undetermined",
   "feed_nature_basis": null,
